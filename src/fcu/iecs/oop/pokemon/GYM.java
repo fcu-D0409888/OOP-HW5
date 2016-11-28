@@ -8,7 +8,6 @@ public class GYM {
 			System.out.printf("Winner is %s",p1.getName());
 			cp = p1.getCp() + 50;
 			p1.setCp(cp);
-			System.out.println(p1.getCp());
 		}
 		else{
 			System.out.printf("Winner is %s",p2.getName());
